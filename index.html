@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>Place here your page title!</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -16,10 +16,19 @@
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<!-- JQuery
+  ================================================== -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+	<!-- FontAwesome
+  ================================================== -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/responsi.ve.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
 
 	<!--[if lt IE 9]>
@@ -45,22 +54,39 @@
 
 	<div class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Skeleton</h1>
-			<h5>Version 1.2</h5>
+			<h1 class="remove-bottom" style="margin-top: 40px">Responsi.ve</h1>
+			<h5 class="">Version 0.1</h5>
 			<hr />
+		<nav>
+			<ul>
+				
+			</ul>
+		</nav>
 		</div>
-		<div class="one-third column">
-			<h3>About Skeleton?</h3>
+		<div class="one-third column panel">
+			<h3>What is Responsi.ve?</h3>
 			<p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
 		</div>
 		<div class="one-third column">
-			<h3>Three Core Principles</h3>
-			<p>Skeleton is built on three core principles:</p>
-			<ul class="square">
-				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
-				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
-				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
-			</ul>
+		
+			<div class="tab" data-title="Primo Tab" id="first">
+				<h3>Three Core Principles</h3>
+				<p>Skeleton is built on three core principles:</p>
+				<ul class="square">
+					<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
+					<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+					<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+				</ul>
+			</div>
+			<div class="tab" data-title="Secondo Tab" id="second">
+				<h3>Second tab</h3>
+				<p>This is not shown:</p>
+				<ul class="square">
+					<li>Because it's hidden.</li>
+					<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+					<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+				</ul>
+			</div>
 		</div>
 		<div class="one-third column">
 			<h3>Docs &amp; Support</h3>
@@ -68,7 +94,7 @@
 		</div>
 
 	</div><!-- container -->
-
+	<script src="js/responsi.ve.js"></script>
 
 <!-- End Document
 ================================================== -->
